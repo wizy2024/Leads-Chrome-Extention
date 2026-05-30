@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+#inputBox {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0.5px solid green;
+}
+#inputBox:focus {
+  background-color: rgb(139, 233, 233);
+}
+#saveUrl {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  font-weight: bold;
+  padding: 10px 20px;
+  font: 30px;
+}
+#saveTab {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  font-weight: bold;
+  padding: 10px 20px;
+  font: 30px;
+}
+#deleteBtn {
+  color: green;
+  background-color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  font: 30px;
+  border: 0.5px solid green;
+}
+
+ul {
+  padding: 0px;
+  margin-top: 20px;
+  list-style: none;
+}
+li {
+  margin-top: 6px;
+}
+a {
+  color: green;
+}
